@@ -1,6 +1,7 @@
 # MGAPP
 
 >GAPP is a profiler to detect serialization bottlenecks in parallel Linux applications. It works by tracing kernel context switch events by kernel probes managed using the extended Berkeley Packet Filter (eBPF) framework. It has been tested on multi-threaded and MPI C/C++ applications.
+> &#151; The [GAPP README](https://github.com/RN-dev-repo/GAPP).
 
 This repository is an imaginatively named modified version of [GAPP](https://github.com/RN-dev-repo/GAPP) (Generic Automatic Parallel Profiler).
 GAPP was developed by Reena Nair at Imperial College alongside Tony Field, both of whom helped greatly with this project.
