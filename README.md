@@ -14,14 +14,14 @@ Some of the main things that were added are:
 
 1. Classificiation of critical stack traces (I/O, synchronisation)
 1. Metadata about events
-    * I/O file name
-		* Socket address
+  * I/O file name
+  * Socket address
 1. Waker / woken traces for synchronisation events where possible
 1. Analysis for individual locks that were detected
 1. A terminal-based GUI
 1. Some general QoL improvements:
-    * Simplifying some common C++ stack trace patterns
-		* Ability to spawn processes rather than tracking existing ones (and also to attach to a specific PID)
+  * Simplifying some common C++ stack trace patterns
+  * Ability to spawn processes rather than tracking existing ones (and also to attach to a specific PID)
 
 Some explanation is available in the [associated report](./Report.pdf), although it was intended
 as my dissertation, and as such is *not* a condensed form of documentation.
