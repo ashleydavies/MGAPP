@@ -3,9 +3,10 @@
 >GAPP is a profiler to detect serialization bottlenecks in parallel Linux applications. It works by tracing kernel context switch events by kernel probes managed using the extended Berkeley Packet Filter (eBPF) framework. It has been tested on multi-threaded and MPI C/C++ applications.
 > &mdash; The [GAPP README](https://github.com/RN-dev-repo/GAPP).
 
-This repository is an imaginatively named modified version of [GAPP](https://github.com/RN-dev-repo/GAPP) (Generic Automatic Parallel Profiler).
-GAPP was developed by Reena Nair at Imperial College alongside Tony Field, both of whom helped greatly with this project.
-This repository was developed as part of my master's project at Imperial College in 2018-2019.
+This repository was is an imaginatively named modified version of [GAPP](https://github.com/RN-dev-repo/GAPP) (Generic Automatic Parallel Profiler -
+[corresponding publication](https://arxiv.org/abs/2004.05628)),
+and was developed as part of my master's project in 2018-2019.
+GAPP was developed by Reena Nair at Imperial College alongside Tony Field, both of whom helped greatly with this.
 
 The same prerequisites as [GAPP](https://github.com/RN-dev-repo/GAPP) are required.
 
@@ -56,6 +57,6 @@ The software in this repository has not been extensively tested and is likely to
 Please feel free to get in touch via email or a Github issue about anything you think might be broken, or if you have any questions
 related to usage, and I will be more than happy to help where possible.
 
-And just to reiterate as stated at the top, much of this repository is based on the fantastic work by Reena Nair and Tony Field.
-There is a corresponding [publication for GAPP](https://arxiv.org/abs/2004.05628).
+Finally, to reiterate what was stated at the top, much of this repository is based on the fantastic work by Reena Nair and Tony Field.
+I highly recommend reading the [publication for GAPP](https://arxiv.org/abs/2004.05628).
 
