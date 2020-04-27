@@ -50,6 +50,12 @@ probes (which do not need the program to be running to set up).
 Most of the flags from the original version of GAPP are still in place and functional. I would suggest reading the
 [primary repository's documentation](https://github.com/RN-dev-repo/GAPP) for more advanced usage instructions.
 
+## Structure
+
+The source for `MGAPP` is held within the `MGAPP` folder (`MGAPP/py/` for python files) along with `mgapp.{py, c}`.
+
+The `prog` folder contains some small demo applications you can try this out on.
+
 ## Disclaimer
 
 The software in this repository has not been extensively tested and is likely to have a number of bugs and issues.
